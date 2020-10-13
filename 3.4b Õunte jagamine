@@ -1,0 +1,10 @@
+from random import randint
+
+poialpoiste_arv= int(input("Mitu pöialpoissi tahab õunu?"))
+ounte_arv = 14
+while (poialpoiste_arv>0):
+    ounad = randint(1,2)
+    ounte_arv = ounte_arv - ounad
+    print(ounad)
+    poialpoiste_arv -= 1
+print("Lumivalgekesele jäi " + str(ounte_arv))
