@@ -1,0 +1,10 @@
+from tkinter import *
+
+raam = Tk()
+raam.title("Noarootsi valla lipp")
+tahvel = Canvas(raam, width=600, height=300)
+tahvel.create_rectangle(0, 0, 600, 100, fill="dodgerblue", outline="dodgerblue")
+tahvel.create_rectangle(0, 100, 600, 200, fill="black")
+tahvel.create_rectangle(0, 200, 600, 300, fill="yellow", outline="yellow")
+tahvel.pack()
+raam.mainloop()
