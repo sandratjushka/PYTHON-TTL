@@ -1,0 +1,5 @@
+pilvede_korgus = float(input("Palun sisesta pilvede kõrgus: "))
+if pilvede_korgus<=6 :
+    print("Need ei ole ülemised pilved")
+else:
+    print("Need on ülemised pilved")
