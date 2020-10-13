@@ -1,0 +1,8 @@
+ringide_arv = int(input("Sisestage ringide arv: "))
+porgandite_arv = 0
+while (ringide_arv > 0):
+    for progandite_arv in range(ringide_arv):
+        if ringide_arv%2== 0:
+            porgandite_arv += ringide_arv
+        ringide_arv -= 1
+print("Porgandite koguarv on " + str(porgandite_arv) + ".")
