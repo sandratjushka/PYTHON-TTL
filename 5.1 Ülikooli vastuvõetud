@@ -1,0 +1,7 @@
+fail = open("rebased.txt")
+vast = []
+for rida in fail:
+    vast.append(int(rida))
+aasta = int(input("Palun sisestage, millise aasta andmeid vajate: "))
+print(vast[aasta-2011])
+fail.close()
