@@ -1,0 +1,7 @@
+kilogrammid = float(input("Sisestage õunte kogus kilogrammides: "))
+def mahlapakkide_arv(kilogrammid):
+    liitrid = kilogrammid*0.4
+    pakkide_arv = liitrid/ 3
+    return round(pakkide_arv)
+a = mahlapakkide_arv(kilogrammid)
+print(str(a))
